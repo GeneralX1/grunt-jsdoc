@@ -29,7 +29,9 @@
     "node": ">= 8.12.0"
   },
   "scripts": {
-    "test": "grunt test"
+    "test": "grunt test",
+    "prepare": "npm run snyk-protect",
+    "snyk-protect": "snyk-protect"
   },
   "devDependencies": {
     "grunt": "^1.0.4",
@@ -41,7 +43,8 @@
   },
   "dependencies": {
     "cross-spawn": "^7.0.1",
-    "jsdoc": "^3.6.3"
+    "jsdoc": "^3.6.8",
+    "@snyk/protect": "latest"
   },
   "keywords": [
     "gruntplugin",
@@ -50,5 +53,6 @@
     "doc",
     "jsdoc",
     "jsdoc3"
-  ]
+  ],
+  "snyk": true
 }

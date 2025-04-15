@@ -44,7 +44,7 @@
   "dependencies": {
     "cross-spawn": "^7.0.1",
     "jsdoc": "^3.6.8",
-    "@snyk/protect": "latest"
+    "@snyk/protect": "1.1110.0"
   },
   "keywords": [
     "gruntplugin",
